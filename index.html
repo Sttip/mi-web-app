@@ -1,10 +1,51 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mi WebApp en Azure</title>
-  </head>
-  <body>
-    <h1>¡Hola desde Azure  Service!</h1>
-    <p>Desplegado automáticamente desde GitHub 🚀</p>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bienvenido a Azure</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0078d7, #00b4d8);
+      color: white;
+      text-align: center;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.3em;
+    }
+    p {
+      font-size: 1.3em;
+      margin-top: 0;
+    }
+    .box {
+      background: rgba(255,255,255,0.15);
+      padding: 20px 40px;
+      border-radius: 12px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🌐 ¡Hola desde Azure VM!</h1>
+    <p>Servidor web desplegado con <strong>Nginx en Ubuntu (IaaS)</strong></p>
+    <p>Accedido a través de la IP pública de la máquina virtual</p>
+  </div>
+  <footer>Proyecto Azure | IaaS + PaaS | 2025</footer>
+</body>
 </html>
