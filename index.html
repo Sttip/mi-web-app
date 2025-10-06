@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenido a Azure</title>
+  <title>Azure App Service (PaaS) - Despliegue Automático</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(135deg, #0078d7, #00b4d8);
+      background: linear-gradient(135deg, #0078D7, #00B4D8);
       color: white;
       text-align: center;
       margin: 0;
@@ -18,19 +18,28 @@
       align-items: center;
     }
     h1 {
-      font-size: 2.8em;
-      margin-bottom: 0.3em;
+      font-size: 3em;
+      margin-bottom: 0.2em;
     }
     p {
       font-size: 1.3em;
-      margin-top: 0;
+      margin-top: 0.3em;
     }
     .box {
       background: rgba(255,255,255,0.15);
-      padding: 20px 40px;
-      border-radius: 12px;
+      padding: 30px 50px;
+      border-radius: 16px;
       backdrop-filter: blur(6px);
       box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    }
+    .tag {
+      background: #fff;
+      color: #0078D7;
+      font-weight: bold;
+      padding: 6px 12px;
+      border-radius: 20px;
+      margin-top: 15px;
+      display: inline-block;
     }
     footer {
       position: absolute;
@@ -42,10 +51,11 @@
 </head>
 <body>
   <div class="box">
-    <h1>🌐 ¡Hola desde Azure VM!</h1>
-    <p>Servidor web desplegado con <strong>Nginx en Ubuntu (IaaS)</strong></p>
-    <p>Accedido a través de la IP pública de la máquina virtual</p>
+    <h1>🚀 ¡Hola desde Azure App Service!</h1>
+    <p>Esta aplicación web se ejecuta en un entorno <strong>PaaS</strong> de Azure.</p>
+    <p>Desplegada automáticamente desde <strong>GitHub Actions</strong>.</p>
+    <span class="tag">Plataforma como Servicio (PaaS)</span>
   </div>
-  <footer>Proyecto Azure | IaaS + PaaS | 2025</footer>
+  <footer>Proyecto Azure 2025 | App Service en Linux | Despliegue CI/CD</footer>
 </body>
 </html>
